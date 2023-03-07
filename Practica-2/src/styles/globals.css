@@ -1,0 +1,154 @@
+.row {
+  display: flex;
+  border: 2px dashed #cccccc;
+  border-radius: 10px;
+  margin-bottom: 20px;
+
+}
+
+.row:hover {
+  cursor: pointer;
+}
+
+.destination-image {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.destination-image2 {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.destination-destino {
+  display: flex;
+  font-size: 24px;
+  margin: 0;
+}
+
+.destination-description {
+  display: flex;
+  font-size: 16px;
+  margin-top: 10px;
+  display: flex;
+  margin-bottom: 0;
+}
+
+/* Estilos para el detalle del destino */
+.destination-container {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  margin-top: 50px;
+}
+
+.back-button {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.destination-image {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.destination-image2{
+  width: 300px;
+  height: 300px;
+  margin-top: 20px;
+  object-fit: cover;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.destination-destino {
+  font-size: 36px;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.destination-description {
+  font-size: 24px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  text-align: center;
+  
+}
+
+/* Estilos generales */
+.container {
+  border-radius:10px ;
+  width: 100%;
+  background-color: aquamarine;
+}
+
+.destination {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 300px;
+  align-items: center;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: dashed black 1px;
+ 
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.container-destination {
+  border-radius: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  background-color: aquamarine;
+}
+
+.destination-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: fit-content;
+  align-items: center;
+  margin-bottom: 20px;
+  border: dashed black 1px;
+  border-radius: 10px;
+}
+
+.volver {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+
+.btn{
+  background-color: #ff01af;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
