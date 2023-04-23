@@ -11,7 +11,6 @@ const HouseList = () => {
     useEffect(()=>{
         const fetchHouses = async () => {
             try{
-
                 const res = await fetch(`https://wizard-world-api.herokuapp.com/Houses`);
                 const data: Houses[] = await res.json();
                 setHouses(data);
