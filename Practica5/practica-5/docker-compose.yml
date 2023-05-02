@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+ 
+  front:
+    image: node:18
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/usr/src
+    environment:
+      - REACT_APP_API_BASE_URL= http://swapi-graphql.netflix.app
+    command: bash -c "cd /usr/src && npm run dev"
+    
